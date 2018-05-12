@@ -1,92 +1,89 @@
-
-
-body{
-    background-image: url("../images/PL-pic.jpg");  
+body {
+    position: static;
+    background-image: url("../images/GraffitiWP.jpg");
+    background-size :100%;
+    
 }
 
 nav{
-    width: 960px;
-    margin:0 auto;
-}
-
-#name{
-    Background-color: white;
-    color: dodgerblue;
-    font-size: 26px;
-    width: 70px;
-    padding:10px;
-    float: left;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: right;
-    border-left: 1px solid #bbb;
-   
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-    background-color: #111; 
-}
-
-li a:active{
-    color: red;
-}
-
-#content{
-    font-size:28px;
-    margin:0 auto;
-    width:900px;
-    height:400px;
-    padding:30px;
-    background-color: #333;
-    margin-top: 15px;
-}
-
-#idpic{
-    height:150px;
-    width:180px;
-    margin-top: 15px;
-    margin-right: 15px;
-    float:left;
-}
-p{
+    background-color: lemonchiffon;
+    width:960px;
+    height:80px;
+    margin: auto;
     
 }
- 
-footer{
-    margin:0 auto;
+#logo{
+    height:75px;
+    width: 220px;
+    margin-top:2px;
+    
+}
+
+.navlinks{
+    display: flex;
+    float:right;
+}
+
+.navlink{
+    color: whitesmoke;
     text-align: center;
-    background-color: #333;
-    height:25px;
-    padding-top:10px;
-    width:960px;
-    margin-top:15px;
+    margin-top:25px;
+    border-left: 2px double dodgerblue;
+    padding:0px 10px;
+    
 }
 
-
-form{
-    marign:0 auto;
-    width:960px;
+.navfull{
+    background-color:lemonchiffon;
+    width:100%;
+    height:80px;
+    
 }
 
+.content{
+    background-image: url("../images/mario1-cropped.gif");
+    width:960px;
+    height:480px;
+    
 
+  
+    margin: auto;
+    margin-top: 20px;
+}
 
+h1{
+    font-size: 30px;
+    color:yellow;
+    margin:10px;
+    margin-left:50px;
+}
+#kirby{
+    width:180px;
+    height:180px;
+    margin:10px;
+    float: left;
 
+}
+
+p{
+    color:lemonchiffon;
+    font-size: 18px;
+    line-height: 27px;
+    width: 85%;
+    margin-left: 8.5%;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color: lemonchiffon;
+    color:dodgerblue;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom:4px;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 8px solid yellow;
+
+}
