@@ -1,8 +1,16 @@
 body {
     position: static;
-    background-image: url("../images/GraffitiWP.jpg");
+    background-image: url("../images/GrafWP.jpg");
     background-size :100%;
+    margin:auto;
     
+}
+
+.navfull{
+    background-color:lemonchiffon;
+    width:100%;
+    height:80px;
+    margin-bottom:15px;
 }
 
 nav{
@@ -28,27 +36,22 @@ nav{
     color: whitesmoke;
     text-align: center;
     margin-top:25px;
-    border-left: 2px double dodgerblue;
+    border-left: 2px dodgerblue;
     padding:0px 10px;
-    
 }
 
-.navfull{
-    background-color:lemonchiffon;
-    width:100%;
-    height:80px;
+.container{
+    
+    width:960px;
+    height:480px;
+    margin: 0 auto;
     
 }
 
 .content{
-    background-image: url("../images/mario1-cropped.gif");
-    width:960px;
-    height:480px;
-    
-
-  
-    margin: auto;
-    margin-top: 20px;
+    background-image: url("../images/wood.jpg");
+    background-size: 960px auto; 
+    padding-bottom:20px;  
 }
 
 h1{
@@ -66,11 +69,12 @@ h1{
 }
 
 p{
-    color:lemonchiffon;
-    font-size: 18px;
+    color: whitesmoke;
+    font-size: 22px;
     line-height: 27px;
     width: 85%;
     margin-left: 8.5%;
+    padding-bottom:10px;
 }
 
 #footer{
@@ -83,7 +87,41 @@ p{
     padding-top: 60px;
     padding-bottom:4px;
     width: 100%;
-    margin-top: 20px;
     border-top: 8px solid yellow;
 
+}
+
+table{
+    margin:auto;
+    
+}
+
+
+td{
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    width:90%;
+    margin: 0 auto;
+
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical /
+}
+
+#contactlabel{
+    color: lemonchiffon;
 }
